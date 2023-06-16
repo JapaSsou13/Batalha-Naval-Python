@@ -580,7 +580,7 @@ def exibirTabuleiro():
 
     atualizarPontos()
     print(f"==========[Computador]==========\nEmbarcações restantes: {naviosPC}")
-    for linha in tabuleiroPC:
+    for linha in ocultoPC:
         print(" ".join(linha))
     print("---------------------------------")
     print(f"===========[Jogador ]===========\nEmbarcações restantes: {naviosJogador}")
